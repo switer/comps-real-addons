@@ -24,12 +24,14 @@ compsRealAddons(comps)
 ## Syntax
 
 * **{%= $expression /%}**
+
     Will be compiled to real's **r-text** directive:
     ```html
     <span r-text>{$expression}</span>
     ```
 
 * **{%- $expression /%}**
+
     Will be compiled to real's **r-html** directive:
     ```html
     <span r-html>{$expression}</span>
