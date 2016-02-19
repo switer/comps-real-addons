@@ -1,0 +1,23 @@
+{
+  "name": "comps-real-addons",
+  "version": "1.0.0",
+  "description": "Real's template render syntax in comps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/switer/comps-real-addons.git"
+  },
+  "author": "switer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/switer/comps-real-addons/issues"
+  },
+  "homepage": "https://github.com/switer/comps-real-addons#readme",
+  "devDependencies": {
+    "comps": "^2.1.0",
+    "mocha": "^2.4.5"
+  }
+}
