@@ -1,6 +1,6 @@
 # comps-real-addons
 
-Template render syntax support for [Real](https://github.com/switer/real) using [Comps](https://github.com/switer/comps)
+Template rendering syntax sugar for [Real](https://github.com/switer/real) using [Comps](https://github.com/switer/comps)
 
 > Noti: Requires version of Real since `1.5.0`
 
