@@ -1,6 +1,6 @@
 {
   "name": "comps-real-addons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real's template render syntax in comps.",
   "main": "index.js",
   "scripts": {

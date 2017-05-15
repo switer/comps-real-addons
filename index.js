@@ -10,6 +10,15 @@ module.exports = function(comps) {
             return '{' + this.$raw + '}'
         }
     })
+    comps.tag('if=', {
+        paired: false,
+        outer: function () {
+            return ['<span r-if="{' + this.$raw + '}" r-text>', '</span>']
+        },
+        inner: function () {
+            return '{' + this.$raw + '}'
+        }
+    })
     comps.tag('-', {
         paired: false,
         outer: function () {
