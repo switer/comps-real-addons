@@ -30,7 +30,7 @@ compsRealAddons(comps)
     <span r-text>{$expression}</span>
     ```
 
-* **{%= $expression /%}**
+* **{%if= $expression /%}**
 
     Will be compiled to real's **r-text** directive with **r-if**:
     ```html
