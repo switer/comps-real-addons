@@ -37,7 +37,7 @@ module.exports = function(comps) {
     comps.tag('datasource', {
         paired: true,
         outer: function () {
-            return ['<script type="text/json" r-datasource>JSON.stringify({', '})</script>']
+            return ['<script type="text/json" r-datasource>${JSON.stringify({', '})}</script>']
         },
         inner: function () {
             return this.$inner()
