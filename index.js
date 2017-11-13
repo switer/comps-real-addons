@@ -28,4 +28,19 @@ module.exports = function(comps) {
             return '{' + this.$raw + '}'
         }
     })
+    /**
+     * {% datasource%}
+     *     propA: 'xxx',
+     *     propB: 'XXXX'
+     * {% /datasource %}
+     */
+    comps.tag('datasource', {
+        paired: true,
+        outer: function () {
+            return ['<script type="text/json" r-datasource>JSON.stringify({', '})</script>']
+        },
+        inner: function () {
+            return this.$inner()
+        }
+    })
 }
